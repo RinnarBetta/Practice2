@@ -1,9 +1,18 @@
 package app;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
+    private static final double CONV_K=1.60934;
     public static void main(String[] args) {
-        System.out.print("Hello\n\n\nWorld!");
-        }
+        System.out.println("Converter App.");
+        double miles=7;
+        double km = convmilesTokm(miles);
+        System.out.println("Resul is " + km + "km");
     }
+
+    private static double convmilesTokm(double miles){
+        return miles*CONV_K;
+    }
+
+
+
+}
