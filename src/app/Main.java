@@ -6,7 +6,7 @@ public class Main {
         System.out.println("Converter App.");
         double miles=7;
         double km = convmilesTokm(miles);
-        System.out.println("Resul is " + km + "km");
+        System.out.println("Resul is " + km + " kilomiters");
     }
 
     private static double convmilesTokm(double miles){
